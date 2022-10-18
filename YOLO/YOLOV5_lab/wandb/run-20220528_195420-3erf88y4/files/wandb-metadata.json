@@ -1,0 +1,29 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-05-28T11:54:22.780190",
+    "startedAt": "2022-05-28T11:54:20.909151",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [
+        "--data",
+        "../../sources/lab/data.yaml",
+        "--cfg",
+        "models/yolov5l.yaml",
+        "--weights",
+        "runs/train/exp15/weights/best.pt",
+        "--batch-size",
+        "16",
+        "--epoch",
+        "200"
+    ],
+    "state": "running",
+    "program": "D:\\Job\\YOLO\\YOLOV5\\YOLOV5_lab\\train.py",
+    "codePath": "train.py",
+    "host": "BayyyLegion",
+    "username": "YYQ",
+    "executable": "F:\\Anaconda\\envs\\yolov5\\python.exe"
+}
